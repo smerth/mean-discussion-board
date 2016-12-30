@@ -1,0 +1,18 @@
+# Apple stuff
+.DS_Store
+.tmp
+
+# Editor stuff
+.idea/
+
+# Caches and logs
+.sass-cache
+npm-debug.log
+
+# Modules
+/**/node_modules/
+/**/jspm_packages/
+/**/bower_components/
+
+# Gulp generated builds
+/**/dist/

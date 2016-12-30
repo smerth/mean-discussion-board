@@ -1,0 +1,34 @@
+<div class="container">
+
+
+
+<div class="panel panel-default">
+  <div class="panel-heading">Post a Message</div>
+  <div class="panel-body">
+    <div class="input-group">
+      <textarea name="" id="messagebox" cols="" rows="3" class="form-control custom-control" style="resize:none" ng-model="main.message"></textarea>
+      <span class="input-group-addon btn btn-primary" ng-click="main.postMessage()">Post</span>
+    </div>
+  </div>
+</div>
+
+<ul class="list-group">
+  <li class="list-group-item" ng-repeat="message in main.messages">
+    <span class="badge">{{message.user.email}}</span>
+    {{message.msg}}
+  </li>
+</ul>
+
+<!-- <div class="panel panel-default" ng-repeat="message in main.messages">
+  <div class="panel-heading">
+    <h3 class="panel-title">{{message.user.email}}</h3>
+  </div>
+  <div class="panel-body">
+    {{message.msg}}
+  </div>
+</div> -->
+
+  </div>
+</div>
+
+</div>
