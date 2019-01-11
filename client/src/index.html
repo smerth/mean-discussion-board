@@ -1,10 +1,10 @@
-<!doctype html>
+<!DOCTYPE html>
 <html ng-app="buildWithGeneratorGulpAngular" ng-strict-di>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>buildWithGeneratorGulpAngular</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width" />
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
     <!-- build:css({.tmp/serve,src}) styles/vendor.css -->
@@ -20,15 +20,16 @@
     <!-- endbuild -->
   </head>
   <body>
-
-<div class="container">
-  <div>
-    <acme-navbar></acme-navbar>
-  </div>
-</div>
+    <div class="container">
+      <div><acme-navbar></acme-navbar></div>
+    </div>
 
     <!--[if lt IE 10]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="http://browsehappy.com/">upgrade your browser</a> to improve
+        your experience.
+      </p>
     <![endif]-->
 
     <div ng-viewport ng-controller="RouterController"></div>
@@ -48,23 +49,5 @@
     <!-- angular templates will be automatically converted in js and inserted here -->
     <!-- endinject -->
     <!-- endbuild -->
-<div class="container">
-  <div class="panel panel-default">
-    <div class="panel-heading">Issues</div>
-    <ul>
-      <li>Collapsible mobile navbar</li>
-      <li>Active link highlighting - maybe active-scroll.js?</li>
-      <li>Why are there two messages being posted in some cases?</li>
-      <li>Why do I have to refresh to see newly posted messages?</li>
-      <li>How do I delete messages?</li>
-      <li>Where in Mongo is this data stored?</li>
-      <li>How do I change the mongo query to reverse list order?</li>
-      <li>The password is stored in Mongo unencrypted.</li>
-      <li>Registering Mulitple Email address - the check prevents multiple email addresses from being registered but there is no feed back to the user that the email has already been registered, the registration just fails.</li>
-
-    </ul>
-  </div>
-</div>
-
   </body>
 </html>
